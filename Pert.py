@@ -7,7 +7,6 @@ class Task:
         self.LF = 0
         self.MF = 0
         self.MT = 0
-
 # Définition des tâches avec leurs durées
 tasks = {
     'A': Task('A', 5),
