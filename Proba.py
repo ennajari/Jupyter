@@ -1,5 +1,4 @@
 from scipy.stats import binom
-
 # Given values
 n = 100  # number of trials
 p = 0.01  # probability of failure
