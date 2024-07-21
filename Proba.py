@@ -2,7 +2,6 @@ from scipy.stats import binom
 # Given values
 n = 100  # number of trials
 p = 0.01  # probability of failure
-
 # Calculate the probabilities
 P_X_0 = binom.pmf(0, n, p)
 P_X_1 = binom.pmf(1, n, p)
