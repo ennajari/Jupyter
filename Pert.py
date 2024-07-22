@@ -26,7 +26,6 @@ tasks['E'].predecessors = ['B', 'C']
 tasks['F'].predecessors = ['D', 'E']
 tasks['G'].predecessors = ['E']
 tasks['H'].predecessors = ['F']
-
 # Calcul des dates au plus tôt (ES) et au plus tard (LF)
 def calculate_dates(tasks):
     # Calcul des dates au plus tôt (ES)
