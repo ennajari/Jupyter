@@ -18,7 +18,6 @@ tasks = {
     'G': Task('G', 2),
     'H': Task('H', 4)
 }
-
 # Définition des antériorités
 tasks['B'].predecessors = ['A']
 tasks['C'].predecessors = ['A']
