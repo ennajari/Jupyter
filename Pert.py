@@ -34,7 +34,7 @@ def calculate_dates(tasks):
             task.ES = 0
         else:
             task.ES = max(tasks[pre].ES + tasks[pre].duration for pre in task.predecessors)
-    
+
     # Calcul des dates au plus tard (LF) en ordre inverse
     task_list = list(tasks.values())
     for task in reversed(task_list):
